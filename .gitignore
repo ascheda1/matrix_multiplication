@@ -1,0 +1,29 @@
+# Build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+Makefile2
+*.cmake
+
+# CMake generated test/build files
+*.dir/
+*.bin.dir/
+progress.marks
+CMakeOutput.log
+CMakeRuleHashes.txt
+cmake.check_cache
+
+# Compiled binaries / executables
+*.bin
+a.out
+*.o
+
+# Generated feature tests
+feature_tests.*
+
+# Other generated output files
+out.txt
+
+# Ignore general build artifacts
+/build/
