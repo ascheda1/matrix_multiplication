@@ -1,3 +1,4 @@
+```
 cout << "MATRIX MULTIPLICATION================================================================" << endl;
 cout << "This is a simple program for matrix multiplication." << endl;
 cout << endl;
@@ -20,3 +21,4 @@ cout << "First way is simply serial multiplication." << endl;
 cout << "Second one is just simple use of omp library:\n#omp parallel for" << endl;
 cout << "Third is optimized parallel multiplication using omp library:\n#pragma omp parallel for schedule(dynamic,50) collapse(2) private(i,j,k) shared(m1, m2, m3)" << endl;
 cout << "Fourt way uses only threads with no special libraries." << endl;
+```
